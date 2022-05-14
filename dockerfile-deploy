@@ -1,0 +1,3 @@
+from ubuntu:latest
+RUN echo "testowanie"
+CMD sh -c "touch chibicc.tar.gz && tar -xzf build/chibicc.tar.gz"
