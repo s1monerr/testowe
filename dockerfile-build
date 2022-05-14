@@ -5,4 +5,4 @@ RUN apt-get -y install make
 RUN apt-get -y install build-essential
 WORKDIR chibicc
 RUN mkdir build_dir
-CMD sh -c "make prefix= DESTDIR=/build_dir && tar -czf chibicc.tar.gz"
+CMD sh -c "make prefix= DESTDIR=/build_dir && tar -czf chibicc.tar.gz /chibicc"
