@@ -1,4 +1,3 @@
 FROM build:latest
-WORKDIR /build_dir
 RUN apt-get -y install file
 CMD make test
